@@ -180,3 +180,4 @@ C:\Users\amine\Desktop\.NET\ApiProject\bin\Debug\net9.0\Microsoft.AspNetCore.Cry
 C:\Users\amine\Desktop\.NET\ApiProject\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\amine\Desktop\.NET\ApiProject\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\amine\Desktop\.NET\ApiProject\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\amine\Desktop\.NET\ApiProject\obj\Debug\net9.0\ApiProject.sourcelink.json

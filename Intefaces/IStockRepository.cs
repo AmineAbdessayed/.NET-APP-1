@@ -14,6 +14,7 @@ namespace ApiProject.Intefaces
 
         Task<List<Stock>> GetAllsAsync(QueryObject queryObject);
         Task<Stock?> GetStockAsync(int id);
+        Task<Stock?> GetStockBySymbol(string symbol);
         Task<Stock> CreateStockAsync(Stock stock);
         string DeleteStock(int id);
 

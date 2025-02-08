@@ -71,6 +71,12 @@ namespace ApiProject.Repository
             return stock;
         }
 
+        public async Task<Stock?> GetStockBySymbol(string symbol)
+        {
+           var stock = await _context.Stock.FirstOrDefaultAsync(c=>c.Symbol==symbol);
+           return stock;
+        }
+
         public async Task<bool> isStockExists(int id)
         {
            return await _context.Stock.AnyAsync(x=>x.Id == id);
